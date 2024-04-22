@@ -10,10 +10,11 @@ public class Main {
 		Scanner sc =  new Scanner(System.in);
 		
 		warrior.showInfo();
+		System.out.println("--------------");
 		gunner.showInfo();
 		System.out.println("--------------");
 		gunner.attackWarrior(warrior);
-		System.out.println("전사" + warrior.getHp());
+		System.out.println(warrior.getName() + "의 남은 체력 : " + warrior.getHp());
 		warrior.attackGunner(gunner);
 		
 	}

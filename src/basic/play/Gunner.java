@@ -15,12 +15,15 @@ public class Gunner {
 		this.hp = 800;
 		this.mp = 20;
 		this.depense = 10;
+		this.skill ="총탄강화";
 	}
-
+	
+	
 	// 기능
 	// 스킬 사용
 	public void beingSkill() {
 		System.out.println("");
+		power += 5;
 	}
 
 	// 워리어 공격하기
